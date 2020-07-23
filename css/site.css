@@ -1,0 +1,61 @@
+/* site CSS*/
+header,footer{
+        background-color:aqua;
+        border: solid 1px black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    }
+section{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    }
+
+/* All labels in Main section have the same property*/
+.simple-form {
+    padding: 12px;
+    width:300px;
+    border-color: black;
+    border-width: thick;
+    border:solid 2px black;
+    display:inline-block;
+
+}
+
+
+.simple-form input [type=text]
+{
+width: 130px;
+
+}
+.container{
+    width:800 px;
+    margin: 0 auto;
+
+}
+header nav{
+    float: right;
+    margin-right:50px;
+}
+header nav li{
+    display: inline;
+}
+.results-class{
+    border:solid 1px;
+    border-radius: 2px;
+}
+#main {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    color: #202020;
+    margin: 20px 0;
+    padding: 5px;
+  }
+#results {
+    padding: 2px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+  }
