@@ -45,7 +45,7 @@ class FlipFlopGameControl extends Aθεος.Αφροδίτη.UserWorldControl
 
         var sendmessage = this.Server.PatchRaw(function (msg, txt)
         {
-            const user = self.coven.User(msg.sender);
+          //  const user = self.coven.User(msg.sender);
             //$('#messages').append($('<li>').text(new Date(msg.timestamp) + ":" + user.name + "> " + txt));
             document.getElementById("output").innerHTML+=txt;
         }
