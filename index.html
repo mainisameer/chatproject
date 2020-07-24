@@ -7,10 +7,18 @@
     </head>
     
     <body>
+        <div id="output"></div> 
+        <div>
+            <input type="text" name="chatbox" id="chatbox"/><br/>
+            <button id="sndbtn">Send Message </button>   
+
+
+        </div>
+
         
     <div id="idMagicUsersContainer" title="Tap for more online juice"></div>
-                <script src="//iris.magicusers.com/atheos/afrodite.js"></script>
-                <link rel="stylesheet" href="//iris.magicusers.com/atheos/themes/app.light.css">
+    <script src="//iris.magicusers.com/atheos/afrodite.js"></script>
+    <link rel="stylesheet" href="//iris.magicusers.com/atheos/themes/app.light.css">
         <style>
 	            #idMagicUsersContainer {
 		                position: fixed;
@@ -19,22 +27,13 @@
 		                width:100%;
 		    }
         </style>
-    <div id="output"></div> 
-        <div>
-
-            <input type="text" name="chatbox" id="chatbox"/><br/>
-            <button id="sndbtn">Send Message </button>
-            
-
-
-        </div>
 
         
         
     </body>
      <script>
         
-        class FlipFlopGameControl extends Aθεος.Αφροδίτη.UserWorldControl
+class FlipFlopGameControl extends Aθεος.Αφροδίτη.UserWorldControl
 {
     constructor( )
     {
@@ -57,7 +56,11 @@
         });
         
     }
- 
+    OnInit()
+    {
+        super.OnInit();
+
+    }
 
    
 }
