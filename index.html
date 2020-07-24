@@ -43,12 +43,34 @@
             <input type="submit" value="search"/>
         </form>
         
+        
+    </section>
+    <div id="idMagicUsersContainer" title="Tap for more online juice"></div>
+                <script src="//iris.magicusers.com/atheos/afrodite.js"></script>
+                <link rel="stylesheet" href="//iris.magicusers.com/atheos/themes/app.light.css">
+        <style>
+	            #idMagicUsersContainer {
+		                position: fixed;
+		                top: 0;
+		                height:1.1618em;
+		                width:100%;
+		    }
+        </style>
+    <div id="output"></div> 
+        <div>
+
+            <input type="text" name="chatbox" id="chatbox"/><br/>
+            <button id="sndbtn">Send Message </button>
+            
+
+
+        </div>
+        <input type="text" name "chatbox"
+        
             <div id="results" class="results-class">
                 <button id="toggleButton">Hide</button>
                 <div id="resultList">This is where results will be</div>
 
-        
-    </section>
         <footer>
             &copy; 2020 Global LLC 
         </footer>
@@ -56,5 +78,12 @@
     </body>
     <script type="text/javascript" src="js/j-query.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        document.getElementById("sndbtn").addEventListener("click",function (){
+            document.getElementById("output").innerHTML+=document.getElementById("chatbox").value;
+
+
+        })
+    </script> 
     </div>
 </html>
