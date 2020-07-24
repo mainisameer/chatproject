@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    "use strict";
+"use strict";
 
     
         
@@ -39,4 +38,4 @@ Aθεος.Αφροδίτη.OnReady().then(()=>new FlipFlopGameControl());
 
 
 
-});
+
